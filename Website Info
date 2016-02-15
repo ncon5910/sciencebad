@@ -1,0 +1,12 @@
+Website:
+
+Nameservers:
+ns-1575.awsdns-04.co.uk.
+ns-238.awsdns-29.com.
+ns-1414.awsdns-48.org.
+ns-1018.awsdns-63.net.
+Checking Nameservers: dig +recurse +trace sciencebad.co any
+
+S3 Endpoint:
+http://sciencebad.co.s3-website-us-west-2.amazonaws.com/
+
