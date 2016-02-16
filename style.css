@@ -1,4 +1,6 @@
 body {
+	min-height: 100%;
+	position: relative;
 	border: 0;
 	margin: 0;
 
@@ -10,30 +12,33 @@ div {
 	display: block;
 }
 
-.banner {
-	border: 0;
-	margin: 0;
-	padding: 0;
+#header {
+	background-image: url(science_hero.jpg);
+	background-size: cover;
+	min-height: 400px;
+	max-width: 100%;
+	padding: 10px;
+}
 
-	color: white;
-	background-color: #6b8994;
+#logo {
+	display: inline-block;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	padding: 3px;
 }
 
 .science {
-	margin-bottom: -10px;
-	margin-top: 0;
-	padding-left: 10px;
-
+	margin: 0;
+	margin-bottom: -8px;
+	margin-left: 2px;
 	font-size: 20;
 	font-weight: lighter;
 }
 
 .bad {
 	margin: 0;
-
-	padding-left: 8px;
-	
-	font-size: 40px;
+	font-size: 40;
 	font-weight: bolder;
 }
 
@@ -43,6 +48,7 @@ div {
 }
 
 .top_nav {
+	display: flex;
 	margin: auto;
 	width: 60%;
 	max-height: 200px;
@@ -57,14 +63,6 @@ img {
 	height:auto;
 }
 
-.s_nav {
-	display: inline-block;
-	margin-top: 30px;
-	margin-right: 15px;
-	margin-left: 15px;
-	margin-bottom: 10px;
-}
-
 #body {
 	text-align: center;
 }
@@ -76,21 +74,6 @@ img {
 	max-width: 100%;
 }
 
-#header {
-	background-image: url(science_hero.jpg);
-	background-size: cover;
-	min-height: 400px;
-	max-width: 100%;
-}
-
-#logo {
-	border-width: 1px;
-	border-color: white;
-	border-style: solid;
-	width: 100px;
-	height: 61px;
-}
-
 footer {
 	font-family: Roboto, sans-serif;
 	font-weight: 300;
@@ -99,4 +82,8 @@ footer {
 	background-color: #6b8994;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	position: absolute;
+	min-width: 100%;
+	left: 0;
+	bottom: 0;
 }
