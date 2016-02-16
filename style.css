@@ -45,10 +45,23 @@ div {
 }
 
 .top_nav {
-	float: right;
-	display: flex;
+	float: right !important;
+	display: block;
 	margin: auto;
 	text-align: center;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	float: left;
+	position: relative;
+}
+
+li {
+	display: block;
+	line-height: 1.5;
+	margin: 5;
 }
 
 img {
