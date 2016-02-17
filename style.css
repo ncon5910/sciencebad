@@ -13,12 +13,13 @@ div {
 	display: block;
 }
 
-#hero {
+.hero {
 	display: block;
 	background-image: url(science_hero.jpg);
 	background-size: cover;
 	min-height: 250px;
 	max-width: 100%;
+	padding: 7px;
 }
 
 .navrow {
@@ -112,16 +113,52 @@ img {
 	height:auto;
 }
 
-#body {
+.content {
 	display: block;
 	text-align: center;
 }
 
-#headline {
+.container {
+	margin: auto;
+	text-align: center;
+}
+
+.hero_uploader {
 	background-image: url(tornado-04.jpg);
 	background-size: cover;
-	min-height: 400px;
+	min-height: 100%;
 	max-width: 100%;
+}
+
+.fp_logo {
+	display: inline-block;
+	margin: 20px;
+	max-height: 200px;
+}
+
+.sign_in_box {
+	margin: auto;
+	background-color: #869ba3;
+	width: 350px;
+	height: 250px;
+	border-radius: 3px;
+
+	box-shadow: 2px 2px 5px #404040;
+}
+
+.sign_in {
+	color: #404040;
+	font-weight: lighter;
+	margin: 10px;
+}
+
+input {
+	width: 90%;
+	height: 35px;
+	margin: 10px;
+	border: 1px solid #808080;
+	border-radius: 2px;
+	padding: 0 8px;
 }
 
 footer {
