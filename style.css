@@ -108,15 +108,21 @@ a:hover {
 	font-size: 25px;
 }
 
-img {
-	max-width: 100%;
-	height:auto;
-}
-
 .content {
 	display: block;
 	text-align: left;
-	max-width: 60%;
+	max-width: 70%;
+	margin: auto;
+}
+
+.content h3 {
+	text-align: center;
+}
+
+.pup {
+	display: block;
+	max-width: 100%;
+	height: auto;
 	margin: auto;
 }
 
