@@ -59,7 +59,7 @@ div {
 	text-align: center;
 }
 
-ul {
+.top_nav ul {
 	list-style: none;
 	display: flex;
 	float: left;
@@ -67,7 +67,7 @@ ul {
 	color: white;
 }
 
-li {
+.top_nav li {
 	display: block;
 	line-height: 1.5;
 	margin: 5;
@@ -115,7 +115,9 @@ img {
 
 .content {
 	display: block;
-	text-align: center;
+	text-align: left;
+	max-width: 60%;
+	margin: auto;
 }
 
 .container {
