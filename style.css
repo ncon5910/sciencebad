@@ -117,12 +117,12 @@ a:hover {
 }
 
 .content h3 {
-	text-align: center;
+	text-align: left;
 }
 
 .pup {
-	display: block;
 	max-width: 100%;
+	
 	height: auto;
 	margin: auto;
 }
@@ -147,28 +147,35 @@ a:hover {
 
 .sign_in_box {
 	margin: auto;
-	background-color: #869ba3;
-	width: 350px;
-	height: 250px;
+	background-color: #eeeeee;
+	display: flex;
+	justify-content: center;
+	width: 375px;
+	height: 225px;
 	border-radius: 3px;
-
 	box-shadow: 2px 2px 5px #404040;
 }
 
-.sign_in {
-	color: #404040;
-	font-weight: lighter;
-	margin: 10px;
-	padding-top:15px;
+.sign_in_form {
+	align-self: center;
 }
 
-input {
-	width: 90%;
-	height: 35px;
-	margin: 10px;
+.sign_in_form input {
+	width: 85%;
+	height: 45px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 	border: 1px solid #808080;
-	border-radius: 2px;
+	border-radius: 3px;
 	padding: 0 8px;
+	font-size: 18px;
+}
+
+.button {
+	color: white;
+	background-color: #1381b7;
+	font-size: 30px;
+	border-radius: 3px;
 }
 
 footer {
