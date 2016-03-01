@@ -4,7 +4,7 @@ body {
 	border: 0;
 	margin: 0;
 
-	font-family: "Lato",serif;
+	font-family: "Lato",sans-serif;
 	color: white;
 	background-color: #869ba3;
 }
@@ -171,9 +171,7 @@ input {
 }
 
 footer {
-	font-family: Roboto, sans-serif;
 	font-weight: 300;
-	text-align: center;
 	color: white;
 	background-color: #6b8994;
 	padding-bottom: 20px;
@@ -182,4 +180,19 @@ footer {
 	min-width: 100%;
 	left: 0;
 	bottom: 0;
+}
+
+.footer_left {
+	margin-left: 30px;
+	text-align: left;
+}
+
+.footer_right {
+	padding-right: 20px;
+	float: right;
+}
+
+.footer_link {
+	margin-left: 10px;
+	margin-right: 10px;
 }
