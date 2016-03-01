@@ -17,7 +17,7 @@ div {
 	display: block;
 	background-image: url(science_hero.jpg);
 	background-size: cover;
-	min-height: 250px;
+	min-height: 300px;
 	max-width: 100%;
 	padding: 7px;
 }
@@ -94,6 +94,7 @@ a:hover {
 	width: 60%;
 	text-align: center;
 	padding: 20px 0;
+	text-shadow: 1px 2px #808080;
 }
 
 .brand {
