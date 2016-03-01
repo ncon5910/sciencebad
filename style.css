@@ -112,7 +112,8 @@ a:hover {
 .content {
 	display: block;
 	text-align: left;
-	max-width: 70%;
+	width: 90%;
+	max-width: 700px;
 	margin: auto;
 }
 
