@@ -159,6 +159,7 @@ a:hover {
 
 .sign_in_form {
 	align-self: center;
+	margin-bottom: 0;
 }
 
 .sign_in_form input {
@@ -173,7 +174,7 @@ a:hover {
 }
 
 .button_div {
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .button {
